@@ -48,7 +48,7 @@ defmodule Cardsgame do
   end
 
     def create_hand(hand_size) do
-      #use of a pipe operator to call other functions
+      #using the a pipe operator to call other functions
       Cardsgame.create_deck
       |>Cardsgame.shuffle
       |>Cardsgame.deal(hand_size)
